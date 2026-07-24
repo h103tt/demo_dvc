@@ -1,0 +1,4 @@
+[core]
+    remote = iamsickofthis
+['remote "iamsickofthis"']
+    url = gdrive://1IP1ssj4sH9f19Bngttpbuclyby74xY3t

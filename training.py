@@ -6,7 +6,7 @@ print("Pulling dataset from DVC...")
 subprocess.run(["dvc", "pull"], check=True)
 #wait here
 #check
-task = Task.init(project_name = 'yolov8', task_name='training' )
+task = Task.init(project_name = 'yolov8', task_name='hop_demo_training' )
 # Log the dataset tracker file to the ClearML experiment
 task.upload_artifact(name='dataset_dvc_pointer', artifact_object='demo_dataset/data.dvc')
 
